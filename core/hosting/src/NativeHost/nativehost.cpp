@@ -20,6 +20,10 @@
 #include <coreclr_delegates.h>
 #include <hostfxr.h>
 
+#ifdef _WIN32
+#define WINDOWS
+#endif
+
 #ifdef WINDOWS
 #include <Windows.h>
 
